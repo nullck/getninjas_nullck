@@ -4,3 +4,9 @@ kakaroto
 
 ## vagrant
 /opt/vagrant/bin» ./vagrant --help
+
+## docker
+#beaver
+https://hub.docker.com/r/ombitron/docker-beaver/
+#ruby on rails
+https://docs.docker.com/compose/rails/

@@ -1,0 +1,6 @@
+admin: kakaroto
+readwrite: kakaroto
+readonly: 123456ninjas
+
+kibana: https://1ffcce05103df613f579db660229ee9c.us-east-1.aws.found.io
+elastic http://73f359f87e7e0e03196ed2812c7feb9b.us-east-1.aws.found.io:9200
