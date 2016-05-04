@@ -8,5 +8,28 @@ kakaroto
 ## docker
 #beaver
 https://hub.docker.com/r/ombitron/docker-beaver/
-#ruby on rails
-https://docs.docker.com/compose/rails/
+
+## docker
+(aws_scup)thiagofrancisco➜~/Dropbox/getninjas_app_sample(master✗)» docker build -t nullck/getninjas_app_sample .                                                                                  [4:19:35]
+Sending build context to Docker daemon 51.71 kB
+Step 1 : FROM node:argon
+ ---> 32d9cb7369aa
+Step 2 : RUN mkdir /opt/getninjas_app
+ ---> Using cache
+ ---> 24c825c3f175
+Step 3 : COPY package.json app.js /opt/getninjas_app/
+ ---> Using cache
+ ---> 3dfe0029c754
+Step 4 : WORKDIR /opt/getninjas_app
+ ---> Using cache
+ ---> 873957da439a
+Step 5 : RUN npm install
+ ---> Using cache
+ ---> 8926c1dea366
+Step 6 : CMD node app.js
+ ---> Using cache
+ ---> 87a8cd56c26a
+Successfully built 87a8cd56c26a
+
+
+docker run -t -i nullck/getninjas_app_sample /bin/sh -c "while true; do /usr/local/bin/node app.js; cat /var/log/app.log; sleep 1; done"
