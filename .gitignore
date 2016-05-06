@@ -1,1 +1,3 @@
 .vagrant/
+getninjas_app_sample/
+chef/Berksfile.lock
