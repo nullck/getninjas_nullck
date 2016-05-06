@@ -7,8 +7,7 @@ bundle install
 ## Generate the directory with all remote and local cookbooks
 bundle exec berks update
 bundle exec berks vendor vendor-cookbooks/
-
+berks install
 ## Temporary change dir names to tarball use the right tree
-mv cookbooks/ default-cookbooks/
-mv vendor-cookbooks/ cookbooks/
-
+mv cookbooks default-cookbooks
+mv vendor-cookbooks cookbooks
