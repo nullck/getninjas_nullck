@@ -58,3 +58,6 @@ http://search-getninjas-r74hrslc4sj6d35ksw76npl3iu.us-west-2.es.amazonaws.com/_p
 ```
 
 
+## AWS Topology
+
+![getninjas_test (2).png](https://bitbucket.org/repo/zkzgRo/images/3618082859-getninjas_test%20(2).png)
