@@ -15,4 +15,4 @@ end
 cookbook 'getninjas_logstash', git: 'git@bitbucket.org:nullck/getninjas_logstash.git'
 cookbook 'logstash', github: 'lusis/chef-logstash'
 cookbook 'redis', github: 'phlipper/chef-redis'
-cookbook 'beaver', github 'git@bitbucket.org:nullck/beaver-log.git'
+cookbook 'beaver', git: 'git@bitbucket.org:nullck/beaver-log.git'
