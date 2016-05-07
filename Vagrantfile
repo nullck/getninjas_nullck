@@ -11,10 +11,10 @@ Vagrant.configure(2) do |config|
     chef.json = {
       "getninjas_logstash" => {
         "instance_default" => {
-          "elasticsearch_ip" => "73f359f87e7e0e03196ed2812c7feb9b.us-east-1.aws.found.io",
+          "elasticsearch_ip" => "f83b573504a1a6ada134b72f918ca4b7.us-east-1.aws.found.io",
           "elasticsearch_port" => "9200",
           "elasticsearch_embedded" => false,
-          "redis_ip" => ""
+          "redis_ip" => "127.0.0.1"
         }
       },
       "beaver" => {
