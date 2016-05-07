@@ -28,7 +28,7 @@ chef cookbook: git@bitbucket.org:nullck/getninjas_logstash.git
 
 ##Instructions##
 
-- Verify if you have all of requirements and if not, please install.
+- Verify if you have all of requirements above.
 
 - Clone the repository git@bitbucket.org:nullck/getninjas_nullck.git
 
