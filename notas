@@ -33,3 +33,5 @@ Successfully built 87a8cd56c26a
 
 
 docker run -t -i nullck/getninjas_app_sample /bin/sh -c "while true; do /usr/local/bin/node app.js; cat /var/log/app.log; sleep 1; done"
+
+http://stackoverflow.com/questions/33352022/how-to-select-volume-mountpoint-in-docker-compose-yml

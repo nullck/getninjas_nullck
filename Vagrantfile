@@ -16,9 +16,24 @@ Vagrant.configure(2) do |config|
           "elasticsearch_embedded" => false,
           "redis_ip" => ""
         }
+      },
+      "beaver" => {
+        "configuration": {
+              "logstash_version": "1",
+              "transport": "redis",
+              "redis_url": "redis://127.0.0.1:6379/0",
+              "redis_namespace": "beaver:logstash"
+        },
+        "files": [
+            {
+                "path": "/vagrant/getninjas_app_sample/log/app.log",
+                "add_field": "system,get_ninjas,env,prod,type,api,team,devops,appfilter,getninjas"
+            }
+        ]
       }
     }
     chef.add_recipe "getninjas_logstash"
+    chef.add_recipe "beaver"
   end
   config.vm.provision "shell", inline: $get_app
   config.vm.provision "docker" do |d|
