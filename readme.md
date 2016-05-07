@@ -1,6 +1,7 @@
 ##Requirements##
 
 - Vagrant
+
 ```
 download and installation:
 https://www.vagrantup.com/downloads.html
@@ -29,7 +30,8 @@ chef cookbook: git@bitbucket.org:nullck/getninjas_logstash.git
 
 
 
- - Clone the repository git@bitbucket.org:nullck/getninjas_nullck.git
+- Clone the repository git@bitbucket.org:nullck/getninjas_nullck.git
+
 ```
 $git clone git@bitbucket.org:nullck/getninjas_nullck.git
 ```
