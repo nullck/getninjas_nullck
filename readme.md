@@ -26,6 +26,7 @@ Repositories:
 app sample: git@bitbucket.org:nullck/getninjas_app_sample.git
 main repository: git@bitbucket.org:nullck/getninjas_nullck.git
 chef cookbook: git@bitbucket.org:nullck/getninjas_logstash.git
+docker app sample image: https://hub.docker.com/r/nullck/getninjas_app_sample
 ```
 
 ##Instructions##
