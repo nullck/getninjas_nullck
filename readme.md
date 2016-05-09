@@ -31,7 +31,7 @@ docker app sample image: https://hub.docker.com/r/nullck/getninjas_app_sample
 
 ##Instructions##
 
-- Verify if you have all of requirements above.
+- Verify if you have all of requirements described at requirements session.
 
 - Clone the repository git@bitbucket.org:nullck/getninjas_nullck.git
 
@@ -51,15 +51,30 @@ $bash build.sh
 ```
 $cd ../
 $vagrant up
+```
+Maybe could be necessary to run other command to force provision
+
+```
 $vagrant provision
 ```
 
-- Done !!! Please see if your new logs is displayed in our Kibana, log viewer:
+If you see this message in the console output:
+
+```
+==> default: Running provisioner: shell...
+    default: Running: inline script
+==> default: Cloning into 'getninjas_app_sample'...
+==> default: Running provisioner: docker...
+    default: Installing Docker onto machine...
+==> default: Starting Docker containers...
+==> default: -- Container: nullck/getninjas_app_sample
+```
+
+- Well Done !!! Our vagrant test box is already !! Please see if your new logs is displayed in our Kibana, log viewer:
 
 ```
 http://search-getninjas-r74hrslc4sj6d35ksw76npl3iu.us-west-2.es.amazonaws.com/_plugin/kibana/
 ```
-
 
 ## AWS Topology
 
