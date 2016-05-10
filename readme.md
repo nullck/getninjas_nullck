@@ -23,9 +23,9 @@ $rvm install ruby
 Kibana: search-getninjas-r74hrslc4sj6d35ksw76npl3iu.us-west-2.es.amazonaws.com/_plugin/kibana/
 
 Repositories:
-app sample: git@bitbucket.org:nullck/getninjas_app_sample.git
-main repository: git@bitbucket.org:nullck/getninjas_nullck.git
-chef cookbook: git@bitbucket.org:nullck/getninjas_logstash.git
+app sample: git@github.com:nullck/getninjas_app_sample.git
+main repository: git@github.com:nullck/getninjas_nullck.git
+chef cookbook: git@github.com:nullck/getninjas_logstash.git
 docker app sample image: https://hub.docker.com/r/nullck/getninjas_app_sample
 ```
 
