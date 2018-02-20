@@ -1,4 +1,4 @@
-##Requirements##
+## Requirements ##
 
 - Vagrant
 
@@ -17,7 +17,7 @@ $rvm install ruby
 ```
 
 
-##Endpoints:##
+## Endpoints: ##
 
 ```
 Kibana: search-getninjas-r74hrslc4sj6d35ksw76npl3iu.us-west-2.es.amazonaws.com/_plugin/kibana/
@@ -29,7 +29,7 @@ chef cookbook: git@github.com:nullck/getninjas_logstash.git
 docker app sample image: https://hub.docker.com/r/nullck/getninjas_app_sample
 ```
 
-##Instructions##
+## Instructions ##
 
 - Verify if you have all of requirements described at requirements session.
 
